@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #f0f0f0; 
+    font-family: Arial, sans-serif;
+    text-align: center; 
+    padding: 20px;
+}
+
+h1 {
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.galeria {
+    max-width: 1000px;
+    margin: 0 auto; 
+}
+
+.caixa-foto {
+    display: inline-block; 
+    background-color: white;
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid #cccccc; 
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.caixa-foto img {
+    width: 300px;  
+    height: 200px;
+}
+
+.caixa-foto p {
+    margin-top: 10px;
+    color: #666666;
+    font-size: 14px;
+}
+
+.caixa-foto:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
+}
